@@ -1,2 +1,4 @@
-const nanodegreeCard = document.querySelector(".card");
-nanodegreeCard.innerHTML = "The <strong>Greatest</strong> Ice Cream Flavors";
+document.addEventListener("click", function () {
+	const changeHeader = document.getElementById("para");
+	changeHeader.style.backgroundColor = "red";
+});
